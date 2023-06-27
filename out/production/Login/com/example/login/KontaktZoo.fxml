@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="635.0" style="-fx-background-color: #1a1a1a;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.login.BratislavaZoo">
+   <children>
+      <BorderPane layoutY="-2.0" prefHeight="608.0" prefWidth="635.0" />
+      <Pane prefHeight="400.0" prefWidth="290.0">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:src\img\kon%202.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="96.0" fitWidth="253.0" layoutX="3.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:src\img\kon%203.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutY="279.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fitHeight="140.0" fitWidth="200.0" layoutX="160.0" layoutY="146.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:src\img\kon%204.jpeg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="78.0" fitWidth="139.0" layoutY="192.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:src\img\kon%205.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="161.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:src\img\kon%201.jpg" />
+         </image>
+      </ImageView>
+      <Pane layoutX="365.0" layoutY="-6.0" prefHeight="614.0" prefWidth="270.0" style="-fx-background-color: #70ffb6;" />
+      <Label layoutX="373.0" layoutY="-20.0" prefHeight="626.0" prefWidth="262.0" text="                  The Contact Zoo&#10;&#10;ZOO Contact Liptovský Mikuláš &#10;is a contact zoo in Slovakia, in the Liptovská &#10;Ondrašová part of Liptovský Mikuláš, &#10;near the Tatralandia water park. &#10;It differs from other zoos in that&#10; you can pet certain animals (e.g. lions),&#10; feed them food bought at the ticket office, &#10;take photos, or ride horses and ponies. &#10;There are more than 400 animals in &#10;115 species in the zoo.&#10;&#10;Animals :&#10;Kangaroo in the zoo&#10;beasts – brown bear, lion,&#10; tiger, cougar, lynx, bitch&#10;birds – parrots, pelicans,&#10; turkeys, emus, raptors&#10;rodents – squirrel, ground&#10; squirrel, marmot, guinea pig&#10;ungulates – llamas, cows, &#10;sheep, horse, pony&#10;primates - macaque, monkey,&#10; marmoset, marmoset&#10;others – kangaroos, turtle&#10;&#10;As of 2020 the Bratislava Zoo&#10; contains a collection of &#10;169 animal species and &#10;approximately 1154&#10; animals in total, including rare&#10; and endangered species such as&#10; white lions, white tigers,&#10; Sri Lankan leopards,&#10; caracals, jaguars, brown bears,&#10; eurasian wolves, &#10;red kangaroos, white rhinoceros,&#10; giraffes, zebra, &#10;Barbary macaques, red pandas, &#10;sumatran orangutans,&#10; chimpanzees and snowy owls.&#10;&#10;">
+         <padding>
+            <Insets bottom="50.0" top="30.0" />
+         </padding>
+      </Label>
+      <Pane layoutX="-2.0" layoutY="253.0" prefHeight="354.0" prefWidth="368.0">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="160.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:src\img\kon%206.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="74.0" fitWidth="144.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:src\img\kont%207.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="78.0" fitWidth="144.0" layoutX="2.0" layoutY="110.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:src\img\kon%2010.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="140.0" fitWidth="206.0" layoutX="157.0" layoutY="201.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:src\img\kon9.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="140.0" fitWidth="142.0" layoutX="1.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:src\img\kon%2011.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Button fx:id="BackToMenu" layoutX="540.0" layoutY="568.0" mnemonicParsing="false" onAction="#returnmenu" prefHeight="34.0" prefWidth="90.0" style="-fx-background-color: #1a1a1a;" stylesheets="@../../../../java/com/example/login/buttonstyle.css" text="Back to Menu" textFill="#ffe070" />
+   </children>
+</AnchorPane>

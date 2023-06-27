@@ -1,0 +1,7 @@
+.darkbackground{
+-fx-darkbackground-color: #171717
+}
+.border-bottom{
+    -fx-border-width: 0 0 3 0;
+    -fx-border-color: #fff959;
+}

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="635.0" style="-fx-background-color: #1a1a1a;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.login.BratislavaZoo">
+   <children>
+      <BorderPane layoutY="-2.0" prefHeight="608.0" prefWidth="635.0" />
+      <Pane prefHeight="400.0" prefWidth="290.0">
+         <children>
+            <ImageView fitHeight="135.0" fitWidth="181.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:src\img\kos%201.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="115.0" fitWidth="192.0" layoutX="170.0" layoutY="163.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:src\img\kos%204.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutY="279.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fitHeight="117.0" fitWidth="172.0" layoutX="190.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:src\img\kos%202.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="128.0" fitWidth="156.0" layoutY="170.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:src\img\kos%203.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutX="365.0" layoutY="-6.0" prefHeight="614.0" prefWidth="270.0" style="-fx-background-color: #708fff;" />
+      <Label layoutX="373.0" layoutY="-20.0" prefHeight="626.0" prefWidth="262.0" text="                      The Kosice  Zoo&#10;         &#10;&#10;&#10;The Košice Zoo is &#10;the largest zoo in Slovakia in&#10; terms of total area, size of &#10;the exhibition area and the &#10;number of animals kept, &#10;and in terms of total area, &#10;it is even the largest in &#10;Central Europe. It covers an &#10;area of 289 ha in the natural&#10; environment of Čierna Hora &#10;in Košice - Kavečany district.&#10; Today, almost 75 ha of the &#10;total area is accessible to visitors.&#10; In it, on an area of almost 5 ha,&#10; there is the only DinoPark in &#10;Slovakia, opened on June 1, 2013.&#10; The Košice Zoo was established &#10;by the Regional National Committee&#10; in Košice on May 1, 1979 as a &#10;contributory organization. &#10;Since 1993,ts founder has been&#10; the City of Košice by statute. &#10;The ZOO is involved in&#10; the international preservation &#10;of biodiversity in various &#10;programs. In cooperation &#10;with the WWF and the &#10;Krkonoše National Park,&#10; she participated in the&#10; repatriation of the Carpathian&#10; lynx  to the wild in France &#10;and the Czech Republic &#10;in the 1980s and 1990s.&#10;">
+         <padding>
+            <Insets bottom="50.0" top="30.0" />
+         </padding>
+      </Label>
+      <Pane layoutX="-2.0" layoutY="253.0" prefHeight="354.0" prefWidth="368.0">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutY="52.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:src\img\kos%205.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="117.0" fitWidth="156.0" layoutX="204.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:src\img\kos%206.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="221.0" fitWidth="192.0" layoutX="4.0" layoutY="210.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:src\img\kos%207.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="108.0" fitWidth="156.0" layoutX="204.0" layoutY="189.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:src\img\kos%208.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Button fx:id="BackToMenu" layoutX="540.0" layoutY="568.0" mnemonicParsing="false" onAction="#returnmenu" prefHeight="34.0" prefWidth="90.0" style="-fx-background-color: #1a1a1a;" stylesheets="@../../../../java/com/example/login/buttonstyle.css" text="Back to Menu" textFill="#ffe070" />
+   </children>
+</AnchorPane>

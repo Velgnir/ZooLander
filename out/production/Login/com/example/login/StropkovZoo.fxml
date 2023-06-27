@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="635.0" style="-fx-background-color: #1a1a1a;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.login.BratislavaZoo">
+   <children>
+      <BorderPane layoutY="-2.0" prefHeight="608.0" prefWidth="635.0" />
+      <Pane prefHeight="400.0" prefWidth="290.0">
+         <children>
+            <ImageView fitHeight="135.0" fitWidth="181.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:src\img\str%201.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="129.0" fitWidth="172.0" layoutX="187.0" layoutY="138.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:src\img\str%204.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutY="279.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fitHeight="123.0" fitWidth="166.0" layoutX="193.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:src\img\str%202.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="110.0" fitWidth="172.0" layoutX="4.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:src\img\str%207.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane layoutX="365.0" layoutY="-6.0" prefHeight="614.0" prefWidth="270.0" style="-fx-background-color: #ff70b3;" />
+      <Label layoutX="373.0" layoutY="-20.0" prefHeight="626.0" prefWidth="262.0" text="                      The Stropkov Zoo&#10;         &#10;&#10;The Park area is located in &#10;the center of Stropkovo in&#10; northeastern Slovakia. &#10;The small campus was founded &#10;near the main road I/15 in 1984&#10; on the initiative of children and&#10; their parents. Originally, it was&#10; the Station of Young Naturalists &#10;near the House of Pioneers and&#10; Youth, which later became the ZOO Park.&#10;Currently, visitors are presented&#10; with a number of animals in 40 &#10;aviaries, surrounded by a variety&#10; of rare plants, bushes and trees. &#10;The facility especially attracts &#10;children with its atypical equipment&#10;, but also a contact zoo with the&#10; possibility of feeding animals. &#10;The area is barrier-free, which&#10; allows convenient access for families &#10;with strollers and people with&#10; limited mobility. The facility, which&#10; is accessible all year round, &#10;offers the opportunity for&#10; distraction, education, &#10;relaxation and use of free time&#10; for families with children and adults.&#10;">
+         <padding>
+            <Insets bottom="50.0" top="30.0" />
+         </padding>
+      </Label>
+      <Pane layoutX="-2.0" layoutY="253.0" prefHeight="354.0" prefWidth="368.0">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:src\img\str%205.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="117.0" fitWidth="156.0" layoutX="204.0" layoutY="41.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:src\img\str%206.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="221.0" fitWidth="192.0" layoutX="4.0" layoutY="186.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:src\img\str%208.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="117.0" fitWidth="172.0" layoutX="204.0" layoutY="186.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:src\img\str%203.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Button fx:id="BackToMenu" layoutX="540.0" layoutY="568.0" mnemonicParsing="false" onAction="#returnmenu" prefHeight="34.0" prefWidth="90.0" style="-fx-background-color: #1a1a1a;" stylesheets="@../../../../java/com/example/login/buttonstyle.css" text="Back to Menu" textFill="#ffe070" />
+   </children>
+</AnchorPane>

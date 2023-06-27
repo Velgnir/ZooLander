@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Login/Login.iml" filepath="$PROJECT_DIR$/Login/Login.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/ZOO GUIDER.iml" filepath="$PROJECT_DIR$/.idea/ZOO GUIDER.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../AOP/$installer$/$installer$.iml" filepath="$PROJECT_DIR$/../../../AOP/$installer$/$installer$.iml" />
     </modules>
   </component>
 </project>

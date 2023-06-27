@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #1a1a1a;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.login.ZoosPanel">
+   <center>
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #1a1a1a;" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="Bratislavazoo" layoutX="-7.0" layoutY="18.0" mnemonicParsing="false" onAction="#InfoForBrat" style="-fx-background-color: #1a1a1a;">
+               <graphic>
+                  <ImageView fitHeight="110.0" fitWidth="181.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="file:src\img\Brat%20zoo.jpg" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Label layoutX="431.0" layoutY="148.0" text="Kosice Zoo" textFill="#708fff">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <Button fx:id="BojniceZoo" layoutX="385.0" layoutY="18.0" mnemonicParsing="false" onAction="#InfoForBoj" style="-fx-background-color: #1a1a1a;">
+               <graphic>
+                  <ImageView fitHeight="122.0" fitWidth="169.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="file:src\img\boj.jpg" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Label layoutX="226.0" layoutY="148.0" text="Stropkov Zoo" textFill="#ff70b3">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <Button fx:id="KontaktZoo" layoutX="172.0" layoutY="17.0" mnemonicParsing="false" onAction="#InfoForKon" style="-fx-background-color: #1a1a1a;">
+               <graphic>
+                  <ImageView fitHeight="142.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="file:src\img\kont.jpg" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Label layoutX="19.0" layoutY="148.0" text="Nova Ves Zoo" textFill="#f0ff4d">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <Button fx:id="StropkovZoo" layoutX="181.0" layoutY="183.0" mnemonicParsing="false" onAction="#InfoForStrop" style="-fx-background-color: #1a1a1a;">
+               <graphic>
+                  <ImageView fitHeight="136.0" fitWidth="198.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="file:src\img\str%20zoo.jpg" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Label layoutX="439.0" layoutY="-14.0" text="Bojnice Zoo" textFill="#ac70ff">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <Button fx:id="NovaVesZoo" layoutX="-7.0" layoutY="186.0" mnemonicParsing="false" onAction="#InfoForVes" style="-fx-background-color: #1a1a1a;">
+               <graphic>
+                  <ImageView fitHeight="129.0" fitWidth="188.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="file:src\img\zoo%20ves.jpg" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Label layoutX="232.0" layoutY="-16.0" text="Kontakt Zoo" textFill="#70ffb6">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <Button fx:id="KosiceZoo" layoutX="380.0" layoutY="185.0" mnemonicParsing="false" onAction="#InfoForKos" style="-fx-background-color: #1a1a1a;">
+               <graphic>
+                  <ImageView fitHeight="137.0" fitWidth="186.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="file:src\img\kosice%20map.jpg" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Label layoutX="20.0" layoutY="-16.0" prefHeight="17.0" prefWidth="155.0" text="Bratislava Zoo" textFill="#ff4d4d">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Label>
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <BorderPane.margin>
+            <Insets left="17.0" top="18.0" />
+         </BorderPane.margin>
+      </Pane>
+   </center>
+   <top>
+      <Pane prefHeight="50.0" prefWidth="600.0" style="-fx-background-color: #fffa29;" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="-52.0" layoutY="3.0" prefHeight="45.0" prefWidth="600.0" text="                   What zoo do you want to know about ?">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Label>
+            <Button fx:id="BackToMenu" layoutX="14.0" layoutY="11.0" mnemonicParsing="false" onAction="#returnmenu" prefHeight="28.0" prefWidth="60.0" style="-fx-background-color: #1a1a1a;" text="Return " textFill="#ffe070" />
+         </children>
+      </Pane>
+   </top>
+</BorderPane>
